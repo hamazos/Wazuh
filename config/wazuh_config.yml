@@ -1,0 +1,27 @@
+# Basic configuration for Wazuh Manager
+global:
+  email_notification: yes
+  email_to: "admin@example.com"
+  smtp_server: "smtp.example.com"
+  email_from: "wazuh@yourdomain.com"
+
+alerts:
+  log_alert_level: 3
+  email_alert_level: 7
+
+# Agent configuration
+<agent>
+  <disabled>no</disabled>
+  <port>1514</port>
+  <protocol>udp</protocol>
+</agent>
+
+# Integration with Elasticsearch
+<ossec_config>
+  <integration>
+    <name>elasticsearch</name>
+    <host>localhost</host>
+    <port>9200</port>
+    <enabled>yes</enabled>
+  </integration>
+</ossec_config>
