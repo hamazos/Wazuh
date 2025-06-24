@@ -43,9 +43,7 @@ git clone https://github.com/hamazos/Wazuh.git
 cd Wazuh
 Rendre le script exécutable :
 
-bash
-Copier
-Modifier
+
 chmod +x scripts/install_wazuh.sh
 Lancer l'installation :
 
