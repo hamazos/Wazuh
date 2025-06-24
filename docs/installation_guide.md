@@ -17,9 +17,6 @@ Ce guide fournit les instructions pas à pas pour **installer, configurer et vé
 sudo apt update && sudo apt upgrade -y
 Installer les dépendances nécessaires :
 
-bash
-Copier
-Modifier
 sudo apt install curl apt-transport-https lsb-release gnupg2 -y
 ⚙️ Étape 2 : Installation via le script
 Cloner ce dépôt :
