@@ -47,9 +47,6 @@ Rendre le script exécutable :
 chmod +x scripts/install_wazuh.sh
 Lancer l'installation :
 
-bash
-Copier
-Modifier
 sudo ./scripts/install_wazuh.sh
 Accéder au tableau de bord Wazuh :
 
