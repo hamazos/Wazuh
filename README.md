@@ -39,8 +39,8 @@ Ce dépôt contient les **scripts d'installation** et la **documentation complè
 1. **Cloner le dépôt :**
 
 ```bash
-git clone https://github.com/ton-utilisateur/wazuh-installation.git
-cd wazuh-installation
+git clone https://github.com/hamazos/Wazuh.git
+cd Wazuh
 Rendre le script exécutable :
 
 bash
